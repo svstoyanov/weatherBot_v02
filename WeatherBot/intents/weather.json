@@ -1,0 +1,74 @@
+{
+  "id": "110c9870-743c-4fec-9301-08670d661163",
+  "name": "weather",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "78d294af-a923-40b6-a6b4-8a166adb9c33",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "268d14ed-f7ef-4fbc-85c7-3f6a3d973ed5",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what city would you like the weather?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you tell me the name of the city you like to see the weather of?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "image": {
+            "url": "https://blogdemedios.com.ar/download/multimedia.normal.b34c88ce1e04d844.4e59434769666174686f6e31325f6e6f726d616c2e676966.gif"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I don’t know the weather for $date in $geo-city but I hope it’s nice!",
+            "Sorry I don’t know the weather",
+            "I’m not sure about the weather on $date"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1524672271,
+  "fallbackIntent": false,
+  "events": []
+}

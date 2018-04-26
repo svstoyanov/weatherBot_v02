@@ -1,0 +1,124 @@
+[
+  {
+    "id": "51175bd8-5a58-48f9-9f2a-e3e0f09d12a6",
+    "data": [
+      {
+        "text": "Weather for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "a8c02ea3-b89b-4d0f-9508-dddbbf6f713f",
+    "data": [
+      {
+        "text": "Weather forecast",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "e85de0b5-8ce9-4432-a410-2edbab0e5f28",
+    "data": [
+      {
+        "text": "What is the weather supposed to be",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "8b4bcc10-b638-41a9-804e-494ff0260edf",
+    "data": [
+      {
+        "text": "What is the weather ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "78147084-10e7-499a-ae6b-8f31e348681c",
+    "data": [
+      {
+        "text": "what is the forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "Sofia",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "2659e2c8-0512-4a5c-afa9-a5a7d537c988",
+    "data": [
+      {
+        "text": "What is the weather like",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  },
+  {
+    "id": "802ed30f-c420-4814-9ee7-03bf8ce39679",
+    "data": [
+      {
+        "text": "Weather forecast in ",
+        "userDefined": false
+      },
+      {
+        "text": "Sofia",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524460175
+  }
+]

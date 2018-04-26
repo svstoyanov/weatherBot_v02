@@ -1,0 +1,28 @@
+{
+  "id": "88adf642-cdba-4426-ba1f-5ba3f75eb371",
+  "name": "quit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hope you are prepared for the weather conditions outside. See you soon."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524666917,
+  "fallbackIntent": false,
+  "events": []
+}

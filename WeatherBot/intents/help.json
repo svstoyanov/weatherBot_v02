@@ -1,0 +1,28 @@
+{
+  "id": "9f3f52a2-df7f-43b8-99bf-9f5a203bbc19",
+  "name": "help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, you can say things like \"What\u0027s the weather in Plovdiv\" or \"What\u0027s the weather in Plovdiv next week\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524671146,
+  "fallbackIntent": false,
+  "events": []
+}

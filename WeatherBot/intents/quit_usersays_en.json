@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c89d8e72-79f0-455f-a8fc-7b1e339ac66a",
+    "data": [
+      {
+        "text": "Thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524666917
+  },
+  {
+    "id": "25ff6852-1180-4742-8b9f-ef3a13540576",
+    "data": [
+      {
+        "text": "ok, bye weather bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524666917
+  },
+  {
+    "id": "e0be9160-5b87-431c-86cd-e4802c070d9f",
+    "data": [
+      {
+        "text": "Thanks weather bot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524666917
+  },
+  {
+    "id": "02db2ec8-ae9a-457d-8507-f71973c04f8b",
+    "data": [
+      {
+        "text": "Bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524666917
+  }
+]

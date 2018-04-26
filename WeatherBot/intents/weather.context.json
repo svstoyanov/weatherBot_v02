@@ -1,0 +1,62 @@
+{
+  "id": "35a8fcf0-6b60-496a-bf53-54ca28418d75",
+  "name": "weather.context",
+  "auto": true,
+  "contexts": [
+    "location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "location",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2b987856-9934-4e9a-a01c-0f311660c14b",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        },
+        {
+          "id": "5b67fe29-53a2-486a-bd16-3be7cbd97776",
+          "required": false,
+          "name": "geo-city",
+          "value": "#location.geo-city",
+          "isList": false
+        },
+        {
+          "id": "16445b36-f021-4326-bd71-ce50d33a9fed",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sorry i don\u0027t know the weather for $date-period in #location.geo-city",
+            "Sorry i don\u0027t know the weather for $date in #location.geo-city"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1524484215,
+  "fallbackIntent": false,
+  "events": []
+}
